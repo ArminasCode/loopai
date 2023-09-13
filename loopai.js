@@ -46,7 +46,7 @@ atimti(2) */
 }
 kvadratu(2) */
 
-function arDalusIs(start = 1, end = 1000, nth = 1) {
+/* function arDalusIs(start = 1, end = 1000, nth = 1) {
     for (let i = start; i <= end; i += nth) {
 
         if (i % 7 === 0 && i % 5 === 0 && i % 3 === 0 && i % 9 === 0) {
@@ -85,7 +85,63 @@ function arDalusIs(start = 1, end = 1000, nth = 1) {
 
     }
 }
-arDalusIs()
+arDalus() */
+
+
+
+
+/* function fizz() {
+    for (let i = 1; i <= 200; i++) {
+        let output = ''
+
+        if (i % 3 === 0) {
+            output += 'Fizz'
+        }
+        if (i % 5 === 0) {
+            output += 'Buzz'
+        }
+        if (i % 7 === 0) {
+            output += 'Biff'
+        }
+        if (i % 9 === 0) {
+            output += 'Fuzz'
+        }
+        if (i % 11 === 0) {
+            output += 'Bizz'
+        }
+        if (i % 13 === 0) {
+            output += 'Labas'
+        }
+        if (!output) {
+            output = i
+        }
+        console.log(output)
+    }
+}
+fizz() */
+
+
+
+function fizz() {
+    for (let i = 1; i <= 200; i++) {
+      let output = ''
+  
+      if (i % 3 === 0) output += 'Fizz'
+      if (i % 5 === 0) output += 'Buzz'
+      if (i % 7 === 0) output += 'Biff'
+      if (i % 9 === 0) output += 'Fuzz'
+      if (i % 11 === 0) output += 'Bizz'
+      if (i % 13 === 0) output += 'Labas'
+      if (i % 15 === 0) output += 'Sveikas'
+      if (i % 18 === 0) output += 'Hello'
+  
+      if (!output) output = i
+  
+      console.log(output)
+    }
+  }
+  
+  fizz()
 
 
 
